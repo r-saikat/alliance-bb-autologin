@@ -13,4 +13,4 @@ This contains a python script which may be used to login to alliance broadband a
    ```
 
 ## Cronjob
-If required, you may also configure your linux - based router, raspberry pi, etc. to run this script at startup by configuring cron jobs, so that you don't need to execute the code everytime you swith on your router.
+If required, you may also configure your linux - based router, raspberry pi, etc. to run this script at startup by configuring cron jobs, so that you don't need to execute the code everytime you switch on your router.
