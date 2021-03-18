@@ -19,5 +19,7 @@ If required, you may also configure your linux - based router, raspberry pi, etc
 This simple line executed on a cronjob should work fine. Make sure to use your own credentials.
 
 ```bash
-curl -X POST --data "user=<user_id>&pass=<password>&login=Login" http://10.254.254.2/0/up/
+curl 'http://<yourgatewayip>/0/up/' -H 'Content-Type: application/x-www-form-urlencoded' --data-raw 'user=<typeusernamehere>&pass=<your4digitpassword>&login=Login'
 ```
+
+Replace the *yourgatewayip* with gateway IP, and likewise username and password . Do not include the angle bracket, i.e., <> symbols.
